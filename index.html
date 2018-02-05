@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<title>Velazquez's Hangman Game</title>
+</head>
+<body>
+	<div id="directions">
+		<div id="todo">Type a letter</div>
+		<input type="text" id="input" placeholder="Type_letter_here">
+		<input type="button" id="try_letter" value="submit">
+		<input type="button" id="start_game" value="Start">
+	</div>
+
+	<div id="hangman">
+		<div id="initial_hint"></div>
+		<div id="lives_box">
+			<div id="lives_text">Lives Left</div>
+			<div id="lives_left">6</div>
+		</div>
+	</div>
+
+	<div id="extra_Hint">
+		<div id="another_hint"></div>
+		<input type="button" id="get_hint" value="Another Hint">
+	</div>
+
+	<div id="the_word"></div>
+
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
